@@ -16,5 +16,6 @@ public class FindLongestWord {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String string = scanner.nextLine();
+        System.out.println("Longest word: " + findLongestWord(string));
     }
 }
