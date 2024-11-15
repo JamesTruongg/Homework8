@@ -9,5 +9,7 @@ public class RemoveExtraSpaces {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String string = scanner.nextLine();
+        System.out.println("String with extra spaces removed: " + removeExtraSpaces(string));
+
     }
 }
